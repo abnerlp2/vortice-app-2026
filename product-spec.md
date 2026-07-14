@@ -75,7 +75,7 @@ Vórtice Pulse es una aplicación web que permite a los asistentes de Vórtice 2
 | NFR007 | El frontend debe construirse con un enfoque Mobile-First estricto, optimizado para orientación vertical (Portrait). Los elementos interactivos (corazones, botones) deben tener un área táctil mínima de 44x44 píxeles para evitar toques accidentales. | Usability. |
 | NFR008 | La plataforma no almacenará información personal identificable de los asistentes. | Security. |
 | NFR009 | Las ventanas de evaluación deberán expirar automáticamente cuando finalice el tiempo configurado. | Security. |
-| NFR010 | La estructura del código deberá favorecer la comprensión por parte de desarrolladores y agentes de IA. | Maintainability. |
+| NFR010 | La estructura del código deberá favorecer la comprensión por parte de desarrolladores y agentes de IA mediante el uso estricto de convenciones de nombrado (Clean Code), tipado fuerte y modularidad, evitando depender de comentarios explicativos. | Maintainability. |
 | NFR011 | La solución deberá mantener una arquitectura desacoplada entre frontend y backend. | Maintainability. |
 | NFR012 | La arquitectura deberá permitir reutilizar la plataforma para futuros eventos con cambios mínimos de configuración. | Scalability. |
 | NFR013 | La aplicación deberá registrar eventos relevantes para facilitar el diagnóstico de errores durante la conferencia. | Observability. |

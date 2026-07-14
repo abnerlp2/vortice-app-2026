@@ -64,9 +64,10 @@ La solución se construirá inicialmente como una aplicación web con arquitectu
 *   Componentes desacoplados.
 *   Desarrollo guiado por especificaciones (lo que estamos aprendiendo SDD).
 *   Observabilidad.
-*   Preparado para IA.
+*   Arquitectura predecible e idiomática (Preparado para IA): Utilizar estrictamente los patrones de diseño estándar de Laravel 11 y Livewire v4, ya que las IAs son más eficientes y precisas trabajando sobre convenciones universales que sobre estructuras inventadas o comentadas.
 *   Priorizar tecnologías conocidas y ampliamente documentadas para facilitar el ejercicio en tiempos de ejecución.
-*   El repositorio deberá estar claro y bien documentado, para que pueda utilizarse como material académico sobre SDD en español.
+*   Documentación académica centralizada: El repositorio servirá como material de estudio y caso de uso real sobre SDD en español. Por lo tanto, toda la narrativa, decisiones de diseño y explicaciones metodológicas vivirán exclusivamente en los documentos Markdown (Constitution, Specs, Features) y en el historial de commits atómicos.
+*   Código autodocumentado y "Zero AI Noise": A nivel de implementación, el código fuente explicará su propósito mediante un nombrado expresivo y claro de variables, clases y métodos. Queda estrictamente prohibida la inclusión de comentarios narrativos, diarios de desarrollo o justificaciones de la IA dentro de los archivos de código (.php, .blade.php, etc.). Solo se permite el uso de comentarios técnicos estándar (como PHPDoc) en casos de estricta necesidad estructural.
 
 ## 7. MVP Scope
 VÓRTICE PULSE permitirá validar que es posible recoger retroalimentación de los asistentes durante el evento en tiempo real, mediante una experiencia de evaluación rápida, sencilla y sin autenticación, mostrando los resultados de forma transparente para los organizadores y asistentes.
